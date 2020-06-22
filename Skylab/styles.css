@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background: #0b0a0d;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+header#main-header {
+  position: fixed;
+  background: #111116;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+header#main-header .right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header#main-header .right-nav > a img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+header#main-header .right-nav .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 20px;
+}
+
+header#main-header .right-nav strong {
+  margin-top: -10px;
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+header#main-header .right-nav span {
+  color: #616065;
+  font-size: 13px;
+}
+
+header#main-header .right-nav a img.profile {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 3px solid #715ac1;
+}
+
+.content {
+  display: flex;
+  grid: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 20px 0;
+}
+
+.content div {
+  display: flex;
+  flex: 1;
+  background: #131217;
+  height: 650px;
+  flex-direction: column;
+  margin: 30px 15px;
+  border-radius: 8px;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.content div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border: 2px solid white;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  color: white;
+  margin-top: 35px;
+}
+
+.content div p {
+  color: #6a696e;
+  text-align: center;
+  max-width: 270px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.content div p strong {
+  color: #715ac1;
+}
+
+.content .starter {
+  padding-bottom: 165px;
+  transition: 400ms;
+}
+
+.content .starter span {
+  color: #715ac1;
+  border: 2px solid #715ac1;
+
+}
+
+.content .starter img {
+  margin-top: 40px;
+}
+
+.content .starter p {
+  max-width: 280px;
+}
+
+.content .starter p strong {
+  color: #715ac1;
+}
+
+.content .launchbase {
+  transition: 400ms;
+}
+
+.content .launchbase span {
+  color: #fd9520;
+  border: 2px solid #fd9520;
+  margin-bottom: 70px;
+}
+
+.content .launchbase p {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.content .launchbase p strong {
+  color: #fd9520;
+}
+
+.content .launchbase button {
+  background: #fd9520;
+  height: 50px;
+  width: 300px;
+  border: 0;
+  border-radius: 4px;
+  padding: 0;
+  font-size: 15px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease 0s;
+}
+
+.content .launchbase button:hover {
+  background: #131217;
+  color: white;
+  border: 2px solid #fd9520;
+} 
+
+.content .gostack {
+  padding-bottom: 165px;
+  transition: 400ms;
+}
+
+.content .gostack span {
+  color: #03d361;
+  border: 2px solid #03d361;
+}
+
+.content .gostack img {
+  margin-top: 40px;
+}
+
+.content .gostack p strong {
+  color: #03d361;
+}
+
+.content .starter:hover {
+  max-width: 437px;
+  border: 2px solid #715ac1;
+  margin-top: -1px;
+} 
+
+.content .gostack:hover {
+  max-width: 437px;
+  border: 2px solid #03d361;
+  margin-top: -1px;
+}
+
