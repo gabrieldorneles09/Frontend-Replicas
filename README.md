@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Twitter
 
-You can use the [editor on GitHub](https://github.com/gabrieldorneles09/Frontend-Replicas/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+https://gabrieldorneles09.github.io/Frontend-Replicas/Twitter
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Skylab
+
+https://gabrieldorneles09.github.io/Frontend-Replicas/Skylab
 
 ### Markdown
 
