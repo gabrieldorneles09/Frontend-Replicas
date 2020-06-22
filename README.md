@@ -1,10 +1,10 @@
 ## Twitter
 
-https://gabrieldorneles09.github.io/Frontend-Replicas/Twitter
+<a href="https://gabrieldorneles09.github.io/Frontend-Replicas/Twitter">Twitter profile replica</a>
 
 ## Skylab
 
-https://gabrieldorneles09.github.io/Frontend-Replicas/Skylab
+<a href="https://gabrieldorneles09.github.io/Frontend-Replicas/Skylab">Skylab logged replica</a>
 
 ### Markdown
 
